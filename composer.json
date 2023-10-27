@@ -1,0 +1,25 @@
+{
+    "name": "ostheneo/responsivetable",
+    "description": "A Laravel Nova tool for creating responsive tables.",
+    "keywords": ["laravel", "nova", "laravel-nova", "table", "responsive"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OsTheNeo\\ResponsiveTable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["OsTheNeo\\ResponsiveTable\\ToolServiceProvider"]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
